@@ -155,10 +155,6 @@ gg.addListItems({{
     address = i - e.gSpeed,
     flags = 16,
     name = 'game speed'
-}, {
-    address = i,
-    flags = 1,
-    name = 'BASE'
 }})
 gg.clearResults()
 k = {{"[Home] CandleSpace", 'CandleSpace'}, {"[Isle] Dawn", 'Dawn'}, {"[Isle] DawnCave", 'DawnCave'},
@@ -347,4 +343,3 @@ while true do
     B()
     gg.sleep(200)
 end
-
